@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T00:20:18 IST" name="Suite" finished-at="2024-01-25T00:21:27 IST" duration-ms="68897">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T00:20:18 IST" name="Test" finished-at="2024-01-25T00:21:27 IST" duration-ms="68897">
+      <class name="FLyoneTestcase.AddonSelecting">
+        <test-method signature="AddonSelected()[pri:0, instance:FLyoneTestcase.AddonSelecting@1e66f1f5]" started-at="2024-01-25T00:20:43 IST" name="AddonSelected" finished-at="2024-01-25T00:20:51 IST" duration-ms="8007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddonSelected -->
+        <test-method is-config="true" signature="TeardownMethod(org.testng.ITestResult)[pri:0, instance:FLyoneTestcase.AddonSelecting@1e66f1f5]" started-at="2024-01-25T00:20:51 IST" name="TeardownMethod" finished-at="2024-01-25T00:20:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddonSelected status=SUCCESS method=AddonSelecting.AddonSelected()[pri:0, instance:FLyoneTestcase.AddonSelecting@1e66f1f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownMethod -->
+      </class> <!-- FLyoneTestcase.AddonSelecting -->
+      <class name="FLyoneTestcase.AddonMealandservices">
+        <test-method signature="MealandServices()[pri:0, instance:FLyoneTestcase.AddonMealandservices@4e50c791]" started-at="2024-01-25T00:20:51 IST" name="MealandServices" finished-at="2024-01-25T00:20:54 IST" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MealandServices -->
+        <test-method is-config="true" signature="TeardownMethod(org.testng.ITestResult)[pri:0, instance:FLyoneTestcase.AddonMealandservices@4e50c791]" started-at="2024-01-25T00:20:54 IST" name="TeardownMethod" finished-at="2024-01-25T00:20:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MealandServices status=SUCCESS method=AddonMealandservices.MealandServices()[pri:0, instance:FLyoneTestcase.AddonMealandservices@4e50c791] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownMethod -->
+      </class> <!-- FLyoneTestcase.AddonMealandservices -->
+      <class name="FLyoneTestcase.SearchFlight">
+        <test-method is-config="true" signature="ChooseBrowser()[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979]" started-at="2024-01-25T00:20:03 IST" name="ChooseBrowser" finished-at="2024-01-25T00:20:18 IST" duration-ms="15519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseBrowser -->
+        <test-method is-config="true" signature="DataProvider()[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979]" started-at="2024-01-25T00:20:19 IST" name="DataProvider" finished-at="2024-01-25T00:20:22 IST" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method signature="FlightBooking()[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979]" started-at="2024-01-25T00:20:23 IST" name="FlightBooking" finished-at="2024-01-25T00:20:34 IST" duration-ms="11188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method is-config="true" signature="TeardownMethod(org.testng.ITestResult)[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979]" started-at="2024-01-25T00:20:34 IST" name="TeardownMethod" finished-at="2024-01-25T00:20:34 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FlightBooking status=SUCCESS method=SearchFlight.FlightBooking()[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownMethod -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:FLyoneTestcase.SearchFlight@66d18979]" started-at="2024-01-25T00:21:27 IST" name="Teardown" finished-at="2024-01-25T00:21:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- FLyoneTestcase.SearchFlight -->
+      <class name="FLyoneTestcase.PassengerSelection">
+        <test-method signature="Passenger()[pri:0, instance:FLyoneTestcase.PassengerSelection@7530ad9c]" started-at="2024-01-25T00:20:54 IST" name="Passenger" finished-at="2024-01-25T00:21:27 IST" duration-ms="33761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Passenger -->
+        <test-method is-config="true" signature="TeardownMethod(org.testng.ITestResult)[pri:0, instance:FLyoneTestcase.PassengerSelection@7530ad9c]" started-at="2024-01-25T00:21:27 IST" name="TeardownMethod" finished-at="2024-01-25T00:21:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Passenger status=SUCCESS method=PassengerSelection.Passenger()[pri:0, instance:FLyoneTestcase.PassengerSelection@7530ad9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownMethod -->
+      </class> <!-- FLyoneTestcase.PassengerSelection -->
+      <class name="FLyoneTestcase.FlightSelect">
+        <test-method signature="Flightselected()[pri:0, instance:FLyoneTestcase.FlightSelect@5fbe4146]" started-at="2024-01-25T00:20:34 IST" name="Flightselected" finished-at="2024-01-25T00:20:43 IST" duration-ms="8683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flightselected -->
+        <test-method is-config="true" signature="TeardownMethod(org.testng.ITestResult)[pri:0, instance:FLyoneTestcase.FlightSelect@5fbe4146]" started-at="2024-01-25T00:20:43 IST" name="TeardownMethod" finished-at="2024-01-25T00:20:43 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flightselected status=SUCCESS method=FlightSelect.Flightselected()[pri:0, instance:FLyoneTestcase.FlightSelect@5fbe4146] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownMethod -->
+      </class> <!-- FLyoneTestcase.FlightSelect -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

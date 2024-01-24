@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FLyoneTestcase.PassengerSelection">
+        <methods>
+          <include name="Passenger"/>
+          <include name="TeardownMethod"/>
+          <include name="Teardown"/>
+          <include name="ChooseBrowser"/>
+          <include name="DataProvider"/>
+        </methods>
+      </class> <!-- FLyoneTestcase.PassengerSelection -->
+      <class name="FLyoneTestcase.FlightSelect">
+        <methods>
+          <include name="TeardownMethod"/>
+          <include name="Teardown"/>
+          <include name="ChooseBrowser"/>
+          <include name="Flightselected"/>
+          <include name="DataProvider"/>
+        </methods>
+      </class> <!-- FLyoneTestcase.FlightSelect -->
+      <class name="FLyoneTestcase.AddonSelecting">
+        <methods>
+          <include name="AddonSelected"/>
+          <include name="TeardownMethod"/>
+          <include name="Teardown"/>
+          <include name="ChooseBrowser"/>
+          <include name="DataProvider"/>
+        </methods>
+      </class> <!-- FLyoneTestcase.AddonSelecting -->
+      <class name="FLyoneTestcase.AddonMealandservices">
+        <methods>
+          <include name="MealandServices"/>
+          <include name="TeardownMethod"/>
+          <include name="Teardown"/>
+          <include name="ChooseBrowser"/>
+          <include name="DataProvider"/>
+        </methods>
+      </class> <!-- FLyoneTestcase.AddonMealandservices -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
